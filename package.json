@@ -1,0 +1,22 @@
+{
+  "name": "mern-facebook-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  
+  "scripts": {
+    "start":"node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
+    "router": "^1.3.7"
+  }
+}
